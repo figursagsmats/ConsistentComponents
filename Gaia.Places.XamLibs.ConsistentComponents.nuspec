@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata minClientVersion="2.8.3">
+		<id>Gaia.Places.XamLibs.ConsistentComponents</id>
+		<version>0.2.0-rc2</version>
+		<title>Gaia Places ConsistentComponents Library for Xamarin.Forms</title>
+		<authors>Gustav Lagnström</authors>
+		<owners>Gaia System AB</owners>
+    <licenseUrl>https://github.com/figursagsmats/ConsistentComponents</licenseUrl>
+    <projectUrl>https://github.com/figursagsmats/ConsistentComponents</projectUrl>
+		<!--Default Icon, a template can be found:  https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon.png-->
+		<iconUrl>https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon_nuget.png</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>
+         Long description for your plugin.
+		</description>
+		<summary>Short description for your plugin.</summary>
+		<tags>xamarin, pcl, plugin, plugin for xamarin.forms, android, ios</tags>
+		<dependencies>
+			<group targetFramework="netstandard">
+				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
+			</group>
+
+			<group targetFramework="MonoAndroid">
+				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
+			</group>
+			<group targetFramework="Xamarin.iOS10">
+				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
+			</group>
+		</dependencies>
+	</metadata>
+	<files>
+		<!--.NET Standard-->
+		<file src="src\Gaia.Places.XamLibs.ConsistentComponents.Abstractions\bin\Release\netstandard1.4\Gaia.Places.XamLibs.ConsistentComponents.*" target="lib\netstandard1.4" />
+
+		<!--Xamarin.Android-->
+		<file src="src\Gaia.Places.XamLibs.ConsistentComponents.Android\bin\Release\Gaia.Places.XamLibs.ConsistentComponents.*" target="lib\MonoAndroid10" />
+
+		<!--Xamarin.iOS-->
+		<file src="src\Gaia.Places.XamLibs.ConsistentComponents.iOS\bin\iPhone\Release\Gaia.Places.XamLibs.ConsistentComponents.*" target="lib\Xamarin.iOS10" />
+
+    
+	</files>
+</package>
