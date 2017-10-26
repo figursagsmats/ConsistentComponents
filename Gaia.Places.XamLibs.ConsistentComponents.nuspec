@@ -12,10 +12,10 @@
 		<iconUrl>https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon_nuget.png</iconUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>
-         Long description for your plugin.
+         This package brings Xamarin.Forms components that are styling-wise platform agnostic.
 		</description>
-		<summary>Short description for your plugin.</summary>
-		<tags>xamarin, pcl, plugin, plugin for xamarin.forms, android, ios</tags>
+		<summary>This package brings Xamarin.Forms components that are styling-wise platform agnostic.</summary>
+		<tags>xamarin, plugin, plugin for xamarin.forms, android, ios, consistent, components</tags>
 		<dependencies>
 			<group targetFramework="netstandard">
 				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
