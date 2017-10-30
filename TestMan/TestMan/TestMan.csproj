@@ -16,6 +16,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\src\Gaia.Places.XamLibs.ConsistentComponents.Abstractions\Gaia.Places.XamLibs.ConsistentComponents.Abstractions.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>

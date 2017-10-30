@@ -128,8 +128,16 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\src\Gaia.Places.XamLibs.ConsistentComponents.Abstractions\Gaia.Places.XamLibs.ConsistentComponents.Abstractions.csproj">
+      <Project>{2367f3df-a250-4574-b1a7-3e306e3c5815}</Project>
+      <Name>Gaia.Places.XamLibs.ConsistentComponents.Abstractions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\src\Gaia.Places.XamLibs.ConsistentComponents.UWP\Gaia.Places.XamLibs.ConsistentComponents.UWP.csproj">
+      <Project>{2b729eff-3117-475b-a110-4d013af5105c}</Project>
+      <Name>Gaia.Places.XamLibs.ConsistentComponents.UWP</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TestMan\TestMan.csproj">
-      <Project>{e376aaf8-305b-41df-a18b-068832bdd4e2}</Project>
+      <Project>{02f6a71b-287d-4aca-a249-d3e11dd23d91}</Project>
       <Name>TestMan</Name>
     </ProjectReference>
   </ItemGroup>
